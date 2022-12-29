@@ -1,0 +1,114 @@
+{% include 'teams/base_bootstrap.html' %}
+
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+    input[type=submit] {
+      background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+      background: -webkit-linear-gradient(bottom,#000000,#262626);
+      background: -moz-linear-gradient(bottom,#000000,#262626);
+      background: -o-linear-gradient(bottom,#000000,#262626);
+      background: linear-gradient(0deg,#000000,#262626);
+      backdrop-filter: blur(10px);
+      padding: 25px 105px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+    }
+
+
+    input[type=text], select, textarea {
+      height:40px;
+      width:250px; 
+      
+      padding: 9px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      color: #fff;
+      
+      background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+      background: -webkit-linear-gradient(bottom,#000000,#262626);
+      background: -moz-linear-gradient(bottom,#000000,#262626);
+      background: -o-linear-gradient(bottom,#000000,#262626);
+      background: linear-gradient(0deg,#000000,#262626);
+      backdrop-filter: blur(10px);
+    }
+
+
+</style>
+
+<div class="card text-center" style="background: rgba(1, 2, 3,0.6); padding: 30px 30px ;">
+  <div class="card-header" >
+    
+     <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong" style="margin-top: 10px;">
+        Trivia
+      </button>
+
+      <br>
+      <br>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Trivia</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Oxford Dictionary has 273,000 headwords; 171,476 of them being in current use, 47,156 being obsolete words and around 9,500 derivative words included as subentries.
+              <br>
+              <b>Out of so many words which word you choose and which you don't choose decides your way ahead.  </b>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+  <div class="card-body" style="color: #fff;">
+    <p class="card-text" style="color: #fff;font-family: 'MedievalSharp', cursive;"> Enter a word:</p>
+
+  </div>
+
+  <form action="" class="form"  style="color: white" method="post" id="upload_form" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <input type="text" name="sample" placeholder="" maxlength="12" minlength="8" required="" id="id_sample">
+      <br>
+      <input type="submit" value="Submit" style="color: #fff;padding:5px;height:40px;width:100px;border: 2px solid #fff;">
+      </form>
+
+      {% if invalid %}
+      <h4 style="color: red;">This input is not valid(It should have only alphabets).</h4>
+
+      {% elif repeat %}
+      <h4 style="color: red;">This word has already been used....try something else</h4>
+      {% elif invalid_variation %}
+          <h4 style="color: red;">This input is not valid(It should have some more variation).</h4>
+      {% endif %}
+{% if wrong %}
+  <h4 style="color: red;">Wrong Answer</h4>
+{% endif %}
+</div>
+
+
+{% endblock %}

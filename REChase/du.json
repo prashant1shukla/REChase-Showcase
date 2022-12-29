@@ -1,0 +1,3546 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 252,
+    "fields": {
+        "action_time": "2021-03-31T18:21:30.225Z",
+        "user": 21,
+        "content_type": 13,
+        "object_id": "26",
+        "object_repr": "Anuj kumar patel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 253,
+    "fields": {
+        "action_time": "2021-03-31T18:23:02.977Z",
+        "user": 21,
+        "content_type": 13,
+        "object_id": "27",
+        "object_repr": "IshikaChowdhury",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 254,
+    "fields": {
+        "action_time": "2021-03-31T18:53:24.877Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 255,
+    "fields": {
+        "action_time": "2021-03-31T19:01:09.203Z",
+        "user": 21,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "If 84  = 212,  212 = 52, 73 = 201",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 256,
+    "fields": {
+        "action_time": "2021-03-31T19:07:56.303Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 257,
+    "fields": {
+        "action_time": "2021-03-31T19:08:43.637Z",
+        "user": 21,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "If 84  = 212,  212 = 52, 73 = 201",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 258,
+    "fields": {
+        "action_time": "2021-03-31T19:10:19.917Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with PERFECTion while the others are",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 259,
+    "fields": {
+        "action_time": "2021-03-31T19:11:26.864Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with PERFECTion while the others are",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 260,
+    "fields": {
+        "action_time": "2021-03-31T19:16:21.011Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with PERFECTion while the others are",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 261,
+    "fields": {
+        "action_time": "2021-03-31T19:21:12.662Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a <strong>Turban</strong> and secured it with five locks each of whose key is either Y or N.  Those numbers which are rejected produce key N and those a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 262,
+    "fields": {
+        "action_time": "2021-03-31T19:27:17.815Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a <strong>Turban</strong> and secured it with five locks each of whose key is either Y or N.  Those numbers which are rejected produce key N and those a",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 263,
+    "fields": {
+        "action_time": "2021-03-31T19:37:59.792Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me but don’t t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 264,
+    "fields": {
+        "action_time": "2021-03-31T19:39:51.812Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me (dhey --> t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 265,
+    "fields": {
+        "action_time": "2021-03-31T19:40:31.453Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me (dhey --> t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 266,
+    "fields": {
+        "action_time": "2021-03-31T19:41:02.179Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me (dhey --> t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 267,
+    "fields": {
+        "action_time": "2021-03-31T19:42:14.898Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me (dhey --> t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 268,
+    "fields": {
+        "action_time": "2021-03-31T19:52:11.325Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 269,
+    "fields": {
+        "action_time": "2021-03-31T19:52:42.366Z",
+        "user": 21,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "In this world of REChase there are ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 270,
+    "fields": {
+        "action_time": "2021-03-31T19:53:09.945Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 271,
+    "fields": {
+        "action_time": "2021-03-31T19:58:58.772Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 272,
+    "fields": {
+        "action_time": "2021-03-31T19:59:09.854Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 273,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.049Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "14",
+        "object_repr": "Used object (14)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 274,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.093Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "13",
+        "object_repr": "Used object (13)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 275,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.139Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "12",
+        "object_repr": "Used object (12)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 276,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.186Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "11",
+        "object_repr": "Used object (11)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 277,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.231Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "10",
+        "object_repr": "Used object (10)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 278,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.277Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "9",
+        "object_repr": "Used object (9)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 279,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.433Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "8",
+        "object_repr": "Used object (8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 280,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.479Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "7",
+        "object_repr": "Used object (7)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 281,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.524Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "6",
+        "object_repr": "Used object (6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 282,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.570Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "5",
+        "object_repr": "Used object (5)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 283,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.615Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "Used object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 284,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.673Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "3",
+        "object_repr": "Used object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 285,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.718Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "Used object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 286,
+    "fields": {
+        "action_time": "2021-03-31T20:02:03.765Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "Used object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 287,
+    "fields": {
+        "action_time": "2021-03-31T20:16:42.540Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "15",
+        "object_repr": "Used object (15)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 288,
+    "fields": {
+        "action_time": "2021-03-31T20:21:07.784Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 289,
+    "fields": {
+        "action_time": "2021-03-31T20:28:50.567Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 290,
+    "fields": {
+        "action_time": "2021-03-31T20:33:09.328Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "17",
+        "object_repr": "Used object (17)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 291,
+    "fields": {
+        "action_time": "2021-03-31T20:33:09.390Z",
+        "user": 21,
+        "content_type": 21,
+        "object_id": "16",
+        "object_repr": "Used object (16)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 292,
+    "fields": {
+        "action_time": "2021-03-31T20:33:36.914Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Crossword\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 293,
+    "fields": {
+        "action_time": "2021-03-31T20:34:14.620Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Crossword\", \"Hint\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 294,
+    "fields": {
+        "action_time": "2021-03-31T20:40:08.565Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 295,
+    "fields": {
+        "action_time": "2021-03-31T20:40:22.011Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "2",
+        "object_repr": "Cipher question- 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 296,
+    "fields": {
+        "action_time": "2021-03-31T20:41:06.456Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 297,
+    "fields": {
+        "action_time": "2021-03-31T20:46:37.401Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "3",
+        "object_repr": "Cipher question- 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 298,
+    "fields": {
+        "action_time": "2021-03-31T20:47:15.256Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "3",
+        "object_repr": "Cipher question- 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 299,
+    "fields": {
+        "action_time": "2021-03-31T20:55:54.631Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "3",
+        "object_repr": "Cipher question- 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 300,
+    "fields": {
+        "action_time": "2021-03-31T20:56:09.300Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "4",
+        "object_repr": "Cipher question- 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 301,
+    "fields": {
+        "action_time": "2021-03-31T20:56:21.674Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "4",
+        "object_repr": "Cipher question- 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 302,
+    "fields": {
+        "action_time": "2021-03-31T21:01:12.204Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "5",
+        "object_repr": "Cipher question- 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 303,
+    "fields": {
+        "action_time": "2021-03-31T21:01:38.017Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\", \"Answers\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 304,
+    "fields": {
+        "action_time": "2021-03-31T21:07:39.142Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "5",
+        "object_repr": "Cipher question- 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 305,
+    "fields": {
+        "action_time": "2021-03-31T21:07:52.163Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "6",
+        "object_repr": "Cipher question- 6",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 306,
+    "fields": {
+        "action_time": "2021-03-31T21:09:23.694Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "6",
+        "object_repr": "Cipher question- 6",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 307,
+    "fields": {
+        "action_time": "2021-03-31T21:13:16.891Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "7",
+        "object_repr": "Cipher question- 7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 308,
+    "fields": {
+        "action_time": "2021-03-31T21:23:15.043Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "7",
+        "object_repr": "Cipher question- 7",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 309,
+    "fields": {
+        "action_time": "2021-03-31T21:23:40.401Z",
+        "user": 21,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "This is a special chase as I will n",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 310,
+    "fields": {
+        "action_time": "2021-03-31T21:25:17.857Z",
+        "user": 21,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "This is a special chase as I will n",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 311,
+    "fields": {
+        "action_time": "2021-03-31T21:25:43.094Z",
+        "user": 21,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "This is a special chase as I will n",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 312,
+    "fields": {
+        "action_time": "2021-03-31T21:26:41.159Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 313,
+    "fields": {
+        "action_time": "2021-03-31T21:26:54.130Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 314,
+    "fields": {
+        "action_time": "2021-03-31T21:30:20.566Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 315,
+    "fields": {
+        "action_time": "2021-03-31T21:34:13.653Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Answers\", \"Score\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 316,
+    "fields": {
+        "action_time": "2021-03-31T21:35:52.725Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 317,
+    "fields": {
+        "action_time": "2021-03-31T21:38:06.589Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Wrong\", \"Accuracy\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 318,
+    "fields": {
+        "action_time": "2021-03-31T21:38:14.222Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 319,
+    "fields": {
+        "action_time": "2021-03-31T21:38:22.287Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 320,
+    "fields": {
+        "action_time": "2021-03-31T21:46:04.501Z",
+        "user": 21,
+        "content_type": 13,
+        "object_id": "26",
+        "object_repr": "Anuj kumar patel",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Team\", \"Accepted\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 321,
+    "fields": {
+        "action_time": "2021-03-31T21:48:57.833Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "team by anuj vaiya",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 322,
+    "fields": {
+        "action_time": "2021-04-01T16:52:28.074Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 323,
+    "fields": {
+        "action_time": "2021-04-01T16:54:45.380Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 324,
+    "fields": {
+        "action_time": "2021-04-01T16:55:31.786Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 325,
+    "fields": {
+        "action_time": "2021-04-01T16:56:58.294Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 326,
+    "fields": {
+        "action_time": "2021-04-01T16:57:57.612Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 327,
+    "fields": {
+        "action_time": "2021-04-01T16:59:45.377Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 328,
+    "fields": {
+        "action_time": "2021-04-01T17:00:22.550Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 329,
+    "fields": {
+        "action_time": "2021-04-01T17:40:29.212Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 330,
+    "fields": {
+        "action_time": "2021-04-01T18:33:50.984Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Ishika",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 331,
+    "fields": {
+        "action_time": "2021-04-02T09:49:01.256Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a <span style=\"color : green;\"><strong>Turban</strong></span> and secured it with five locks each of whose key is either Y or N.  Those numbers which ar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 332,
+    "fields": {
+        "action_time": "2021-04-02T09:50:00.181Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a <span style=\"color : green;\"><strong>Turban</strong></span> and secured it with five locks each of whose key is either Y or N.  Those <span style=\"col",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 333,
+    "fields": {
+        "action_time": "2021-04-02T09:53:39.618Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a Turban and secured it with five locks each of whose key is either Y or N.  Those numbers which are rejected produce key N and those accepted produce k",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 334,
+    "fields": {
+        "action_time": "2021-04-02T11:57:33.965Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 335,
+    "fields": {
+        "action_time": "2021-04-02T11:58:29.583Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\", \"Modal1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 336,
+    "fields": {
+        "action_time": "2021-04-02T12:00:11.030Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\", \"Modal1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 337,
+    "fields": {
+        "action_time": "2021-04-02T12:00:14.715Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 338,
+    "fields": {
+        "action_time": "2021-04-02T12:01:02.346Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 339,
+    "fields": {
+        "action_time": "2021-04-02T12:01:17.332Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 340,
+    "fields": {
+        "action_time": "2021-04-02T12:01:28.053Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 341,
+    "fields": {
+        "action_time": "2021-04-02T12:01:39.653Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 342,
+    "fields": {
+        "action_time": "2021-04-02T12:02:37.368Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 343,
+    "fields": {
+        "action_time": "2021-04-02T12:03:05.511Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 344,
+    "fields": {
+        "action_time": "2021-04-02T12:03:53.119Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 345,
+    "fields": {
+        "action_time": "2021-04-02T12:05:47.537Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 346,
+    "fields": {
+        "action_time": "2021-04-02T12:07:06.265Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 347,
+    "fields": {
+        "action_time": "2021-04-02T12:08:51.942Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 348,
+    "fields": {
+        "action_time": "2021-04-02T12:09:13.785Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 349,
+    "fields": {
+        "action_time": "2021-04-02T12:10:19.268Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 350,
+    "fields": {
+        "action_time": "2021-04-02T12:10:39.620Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "2",
+        "object_repr": "Cipher question- 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 351,
+    "fields": {
+        "action_time": "2021-04-02T12:12:01.897Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "2",
+        "object_repr": "Cipher question- 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 352,
+    "fields": {
+        "action_time": "2021-04-02T12:20:27.929Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 353,
+    "fields": {
+        "action_time": "2021-04-02T12:21:08.219Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 354,
+    "fields": {
+        "action_time": "2021-04-02T12:22:17.085Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\", \"Modal1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 355,
+    "fields": {
+        "action_time": "2021-04-02T12:22:50.395Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 356,
+    "fields": {
+        "action_time": "2021-04-02T12:23:03.728Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\", \"Modal1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 357,
+    "fields": {
+        "action_time": "2021-04-02T12:23:19.059Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 358,
+    "fields": {
+        "action_time": "2021-04-02T12:42:30.545Z",
+        "user": 21,
+        "content_type": 23,
+        "object_id": "1",
+        "object_repr": "Guess the number.\r\n<br>\r\nIf a digit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 359,
+    "fields": {
+        "action_time": "2021-04-02T12:42:47.915Z",
+        "user": 21,
+        "content_type": 23,
+        "object_id": "1",
+        "object_repr": "Guess the number.\r\n<br>\r\nIf a digit",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 360,
+    "fields": {
+        "action_time": "2021-04-02T18:16:22.032Z",
+        "user": 21,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "This is a special chase as I will n",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 361,
+    "fields": {
+        "action_time": "2021-04-02T18:16:45.103Z",
+        "user": 21,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "This is a special chase as I will n",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 362,
+    "fields": {
+        "action_time": "2021-04-02T18:33:06.467Z",
+        "user": 21,
+        "content_type": 24,
+        "object_id": "1",
+        "object_repr": "This is a special chase as I will n",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 363,
+    "fields": {
+        "action_time": "2021-04-02T19:18:17.576Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 364,
+    "fields": {
+        "action_time": "2021-04-02T19:21:30.661Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 365,
+    "fields": {
+        "action_time": "2021-04-02T19:22:33.266Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 366,
+    "fields": {
+        "action_time": "2021-04-02T19:22:49.539Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 367,
+    "fields": {
+        "action_time": "2021-04-02T19:26:38.166Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 368,
+    "fields": {
+        "action_time": "2021-04-02T19:26:58.789Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 369,
+    "fields": {
+        "action_time": "2021-04-02T19:27:13.672Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 370,
+    "fields": {
+        "action_time": "2021-04-02T19:32:59.786Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 371,
+    "fields": {
+        "action_time": "2021-04-02T19:33:27.170Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 372,
+    "fields": {
+        "action_time": "2021-04-02T19:33:55.113Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 373,
+    "fields": {
+        "action_time": "2021-04-02T19:36:15.274Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 374,
+    "fields": {
+        "action_time": "2021-04-02T19:36:44.324Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 375,
+    "fields": {
+        "action_time": "2021-04-02T19:37:12.941Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 376,
+    "fields": {
+        "action_time": "2021-04-02T19:37:42.411Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 377,
+    "fields": {
+        "action_time": "2021-04-02T19:38:18.706Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 378,
+    "fields": {
+        "action_time": "2021-04-02T19:40:15.271Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 379,
+    "fields": {
+        "action_time": "2021-04-02T19:40:53.665Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 380,
+    "fields": {
+        "action_time": "2021-04-02T19:41:30.367Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 381,
+    "fields": {
+        "action_time": "2021-04-02T19:41:47.487Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 382,
+    "fields": {
+        "action_time": "2021-04-02T19:58:01.683Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 383,
+    "fields": {
+        "action_time": "2021-04-03T07:00:57.290Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 384,
+    "fields": {
+        "action_time": "2021-04-03T07:53:10.865Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 385,
+    "fields": {
+        "action_time": "2021-04-03T07:53:54.490Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 386,
+    "fields": {
+        "action_time": "2021-04-03T07:55:13.763Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 387,
+    "fields": {
+        "action_time": "2021-04-03T07:55:26.044Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 388,
+    "fields": {
+        "action_time": "2021-04-03T16:50:01.541Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hint\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 389,
+    "fields": {
+        "action_time": "2021-04-03T21:08:55.041Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 390,
+    "fields": {
+        "action_time": "2021-04-04T03:14:43.592Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 391,
+    "fields": {
+        "action_time": "2021-04-04T03:15:07.632Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "1",
+        "object_repr": "Cipher question- 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 392,
+    "fields": {
+        "action_time": "2021-04-04T03:15:56.949Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Score\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 393,
+    "fields": {
+        "action_time": "2021-04-04T03:18:04.743Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 394,
+    "fields": {
+        "action_time": "2021-04-04T03:18:37.023Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 395,
+    "fields": {
+        "action_time": "2021-04-04T03:30:44.767Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Answers\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 396,
+    "fields": {
+        "action_time": "2021-04-04T03:35:36.221Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 397,
+    "fields": {
+        "action_time": "2021-04-04T03:40:37.153Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Score\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 398,
+    "fields": {
+        "action_time": "2021-04-04T03:40:49.886Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Answers\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 399,
+    "fields": {
+        "action_time": "2021-04-04T04:08:59.303Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 400,
+    "fields": {
+        "action_time": "2021-04-04T04:19:47.709Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\", \"Answers\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 401,
+    "fields": {
+        "action_time": "2021-04-04T04:32:44.421Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Score\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 402,
+    "fields": {
+        "action_time": "2021-04-04T04:36:24.503Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "10",
+        "object_repr": "Pirates win",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 403,
+    "fields": {
+        "action_time": "2021-04-04T04:47:42.028Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 404,
+    "fields": {
+        "action_time": "2021-04-04T05:20:08.211Z",
+        "user": 21,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "I might be your enemy or your frien",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 405,
+    "fields": {
+        "action_time": "2021-04-04T05:34:08.078Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a Turban and secured it with seven locks each of whose key is either Y or N.  Those numbers which are rejected produce key N and those accepted produce ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Wrong\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 406,
+    "fields": {
+        "action_time": "2021-04-04T05:42:52.433Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a Turban and secured it with seven locks each of whose key is either Y or N.  Those numbers which are rejected produce key N and those accepted produce ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 407,
+    "fields": {
+        "action_time": "2021-04-04T05:47:27.457Z",
+        "user": 21,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "We have wrapped the secrets of the next clue in a <span style=\"color : red\">Turban</span> and secured it with seven locks each of whose key is either Y or N.  Those <span style=\"color : red\">numbers</",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Correct\", \"Wrong\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 408,
+    "fields": {
+        "action_time": "2021-04-04T06:00:59.050Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me (dhey --> t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Accuracy\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 409,
+    "fields": {
+        "action_time": "2021-04-04T06:25:25.729Z",
+        "user": 21,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Replace me or remove me (dhey --> t",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 410,
+    "fields": {
+        "action_time": "2021-04-04T06:29:59.657Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 411,
+    "fields": {
+        "action_time": "2021-04-04T06:30:18.951Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 412,
+    "fields": {
+        "action_time": "2021-04-04T06:30:37.662Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 413,
+    "fields": {
+        "action_time": "2021-04-04T07:01:34.640Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 414,
+    "fields": {
+        "action_time": "2021-04-04T07:01:52.537Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 415,
+    "fields": {
+        "action_time": "2021-04-04T07:14:20.647Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 416,
+    "fields": {
+        "action_time": "2021-04-04T07:18:07.280Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with PERFECTion while the others are",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 417,
+    "fields": {
+        "action_time": "2021-04-04T07:20:09.814Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with <span style=\"color:red;\">PERFEC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Wrong\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 418,
+    "fields": {
+        "action_time": "2021-04-04T07:30:06.016Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 419,
+    "fields": {
+        "action_time": "2021-04-04T07:30:46.678Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 420,
+    "fields": {
+        "action_time": "2021-04-04T07:40:04.570Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with <span style=\"color:red;\">PERFEC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 421,
+    "fields": {
+        "action_time": "2021-04-04T07:41:33.286Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 422,
+    "fields": {
+        "action_time": "2021-04-04T07:41:46.551Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 423,
+    "fields": {
+        "action_time": "2021-04-04T07:57:29.891Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 424,
+    "fields": {
+        "action_time": "2021-04-04T08:33:31.864Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with <span style=\"color:red;\">PERFEC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 425,
+    "fields": {
+        "action_time": "2021-04-04T08:36:04.516Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 character password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with <span style=\"color:red;\">PERFEC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Accuracy\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 426,
+    "fields": {
+        "action_time": "2021-04-04T08:36:57.833Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "62",
+        "object_repr": "Alpha Coders",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Score\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 427,
+    "fields": {
+        "action_time": "2021-04-04T08:40:10.801Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 digit password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with <span style=\"color:red;\">PERFECT</s",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Question\", \"Wrong\", \"Accuracy\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 428,
+    "fields": {
+        "action_time": "2021-04-04T08:50:19.750Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 429,
+    "fields": {
+        "action_time": "2021-04-04T08:51:10.279Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 430,
+    "fields": {
+        "action_time": "2021-04-04T08:53:34.057Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 431,
+    "fields": {
+        "action_time": "2021-04-04T09:11:30.834Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 432,
+    "fields": {
+        "action_time": "2021-04-04T09:14:56.642Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 433,
+    "fields": {
+        "action_time": "2021-04-04T09:15:28.151Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 434,
+    "fields": {
+        "action_time": "2021-04-04T09:21:23.240Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 435,
+    "fields": {
+        "action_time": "2021-04-04T09:29:42.478Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "59",
+        "object_repr": "Mary",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 436,
+    "fields": {
+        "action_time": "2021-04-04T09:31:48.973Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "59",
+        "object_repr": "Mary had ...",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 437,
+    "fields": {
+        "action_time": "2021-04-04T10:04:14.516Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 438,
+    "fields": {
+        "action_time": "2021-04-04T10:04:52.070Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 439,
+    "fields": {
+        "action_time": "2021-04-04T10:07:01.935Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 440,
+    "fields": {
+        "action_time": "2021-04-04T10:07:42.727Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 441,
+    "fields": {
+        "action_time": "2021-04-04T10:08:20.469Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 442,
+    "fields": {
+        "action_time": "2021-04-04T10:09:25.131Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 443,
+    "fields": {
+        "action_time": "2021-04-04T10:16:43.653Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 444,
+    "fields": {
+        "action_time": "2021-04-04T10:43:50.149Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Correct\", \"Accuracy\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 445,
+    "fields": {
+        "action_time": "2021-04-04T10:44:38.004Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 446,
+    "fields": {
+        "action_time": "2021-04-04T10:45:14.937Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 447,
+    "fields": {
+        "action_time": "2021-04-04T10:45:44.311Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 448,
+    "fields": {
+        "action_time": "2021-04-04T10:46:04.920Z",
+        "user": 21,
+        "content_type": 26,
+        "object_id": "1",
+        "object_repr": "That sudoku question",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 449,
+    "fields": {
+        "action_time": "2021-04-04T10:47:07.278Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 450,
+    "fields": {
+        "action_time": "2021-04-04T10:52:02.440Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 451,
+    "fields": {
+        "action_time": "2021-04-04T10:54:04.051Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 452,
+    "fields": {
+        "action_time": "2021-04-04T10:55:14.107Z",
+        "user": 21,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "That question regarding prefix sum encoding",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 453,
+    "fields": {
+        "action_time": "2021-04-04T11:27:24.374Z",
+        "user": 21,
+        "content_type": 22,
+        "object_id": "3",
+        "object_repr": "Cipher question- 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 454,
+    "fields": {
+        "action_time": "2021-04-04T11:27:58.688Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 455,
+    "fields": {
+        "action_time": "2021-04-04T12:02:09.995Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 456,
+    "fields": {
+        "action_time": "2021-04-04T12:02:43.326Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 457,
+    "fields": {
+        "action_time": "2021-04-04T12:05:38.529Z",
+        "user": 21,
+        "content_type": 25,
+        "object_id": "1",
+        "object_repr": "Follow  the path to complete the le",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Wrong\", \"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 458,
+    "fields": {
+        "action_time": "2021-04-04T12:10:00.386Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 459,
+    "fields": {
+        "action_time": "2021-04-04T12:33:16.906Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "26",
+        "object_repr": "Boi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 460,
+    "fields": {
+        "action_time": "2021-04-04T12:33:25.021Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "26",
+        "object_repr": "Boi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Score\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 461,
+    "fields": {
+        "action_time": "2021-04-05T10:35:02.621Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 462,
+    "fields": {
+        "action_time": "2021-04-05T10:44:05.906Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 463,
+    "fields": {
+        "action_time": "2021-04-05T10:49:06.325Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 464,
+    "fields": {
+        "action_time": "2021-04-05T10:55:20.719Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 465,
+    "fields": {
+        "action_time": "2021-04-05T10:59:40.912Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 466,
+    "fields": {
+        "action_time": "2021-04-05T11:04:42.028Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 467,
+    "fields": {
+        "action_time": "2021-04-05T11:06:10.688Z",
+        "user": 21,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "received a magical box but to see what's inside they need an 8 digit password. They also received a note stating:\r\n <br>\r\nThe first part of the password starts with <span style=\"color:red;\">PERFECT</s",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Modal\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 468,
+    "fields": {
+        "action_time": "2021-04-05T11:10:17.195Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 469,
+    "fields": {
+        "action_time": "2021-04-05T11:16:56.557Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 470,
+    "fields": {
+        "action_time": "2021-04-05T11:23:21.110Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 471,
+    "fields": {
+        "action_time": "2021-04-05T11:33:42.863Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 472,
+    "fields": {
+        "action_time": "2021-04-05T11:44:54.855Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current level\", \"Current question\", \"Question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 473,
+    "fields": {
+        "action_time": "2021-04-05T11:49:30.141Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 474,
+    "fields": {
+        "action_time": "2021-04-05T11:51:59.950Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 475,
+    "fields": {
+        "action_time": "2021-04-05T11:54:28.224Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 476,
+    "fields": {
+        "action_time": "2021-04-05T11:55:34.260Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 477,
+    "fields": {
+        "action_time": "2021-04-05T11:57:23.540Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 478,
+    "fields": {
+        "action_time": "2021-04-05T11:58:33.638Z",
+        "user": 21,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "sasuke",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Current question\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 479,
+    "fields": {
+        "action_time": "2022-01-31T06:12:35.529Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "153",
+        "object_repr": "marsh_mallow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 480,
+    "fields": {
+        "action_time": "2022-01-31T06:12:35.712Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "152",
+        "object_repr": "chase",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 481,
+    "fields": {
+        "action_time": "2022-01-31T06:12:35.790Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "151",
+        "object_repr": "Rem",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 482,
+    "fields": {
+        "action_time": "2022-01-31T06:12:35.869Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "150",
+        "object_repr": "Mumbai Indians",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 483,
+    "fields": {
+        "action_time": "2022-01-31T06:12:35.948Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "149",
+        "object_repr": "Mk79",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 484,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.026Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "148",
+        "object_repr": "ayush",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 485,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.110Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "147",
+        "object_repr": "asdf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 486,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.189Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "146",
+        "object_repr": "who_is_ur_daddy",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 487,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.268Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "145",
+        "object_repr": "TRISHALA",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 488,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.346Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "144",
+        "object_repr": "ONII-CHAN",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 489,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.425Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "143",
+        "object_repr": "Ok Bully",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 490,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.503Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "142",
+        "object_repr": "Left frontiers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 491,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.592Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "141",
+        "object_repr": "ANP",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 492,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.683Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "140",
+        "object_repr": "Tourist",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 493,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.772Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "139",
+        "object_repr": "Noobs",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 494,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.862Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "138",
+        "object_repr": "MORONS",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 495,
+    "fields": {
+        "action_time": "2022-01-31T06:12:36.968Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "137",
+        "object_repr": "1234567890",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 496,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.058Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "136",
+        "object_repr": "Aks",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 497,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.154Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "135",
+        "object_repr": "LUCYPHER",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 498,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.248Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "134",
+        "object_repr": "Titans",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 499,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.350Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "133",
+        "object_repr": "Vertices",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 500,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.451Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "132",
+        "object_repr": "2.0",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 501,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.552Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "131",
+        "object_repr": "RocknRoll",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 502,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.698Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "130",
+        "object_repr": "+!",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 503,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.800Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "129",
+        "object_repr": "rhodium_45",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 504,
+    "fields": {
+        "action_time": "2022-01-31T06:12:37.901Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "128",
+        "object_repr": "765",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 505,
+    "fields": {
+        "action_time": "2022-01-31T06:12:38.002Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "127",
+        "object_repr": "PowerRangersSPD",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 506,
+    "fields": {
+        "action_time": "2022-01-31T06:12:38.137Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "126",
+        "object_repr": "Alone",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 507,
+    "fields": {
+        "action_time": "2022-01-31T06:12:38.984Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "125",
+        "object_repr": "The noobers",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 508,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.086Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "124",
+        "object_repr": "honeybunny",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 509,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.187Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "123",
+        "object_repr": "Souvik Pramanik",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 510,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.288Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "122",
+        "object_repr": "FC Barcelona",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 511,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.378Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "121",
+        "object_repr": "Onymous",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 512,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.485Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "120",
+        "object_repr": "Manoj",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 513,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.597Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "119",
+        "object_repr": "Bharat",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 514,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.687Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "118",
+        "object_repr": "Indian",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 515,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.783Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "117",
+        "object_repr": "Dark Lancelots",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 516,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.891Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "116",
+        "object_repr": "OneGUN",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 517,
+    "fields": {
+        "action_time": "2022-01-31T06:12:39.986Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "115",
+        "object_repr": "ninja",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 518,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.093Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "114",
+        "object_repr": "StudLaunda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 519,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.206Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "113",
+        "object_repr": "Hitherto_ noob",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 520,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.319Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "112",
+        "object_repr": "bhaukaal",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 521,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.431Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "111",
+        "object_repr": "Useandthrow",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 522,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.544Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "110",
+        "object_repr": "Anonymous1234",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 523,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.657Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "109",
+        "object_repr": "Ball of duty",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 524,
+    "fields": {
+        "action_time": "2022-01-31T06:12:40.770Z",
+        "user": 251,
+        "content_type": 12,
+        "object_id": "108",
+        "object_repr": 

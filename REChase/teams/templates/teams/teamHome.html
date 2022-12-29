@@ -1,0 +1,225 @@
+{% extends "teams/base_bootstrap.html" %}
+
+{% load static %}
+{% block content %}
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+<style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: rgb(252, 0, 42);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: rgb(0, 255, 85);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    /*footer styling */
+		footer{
+		position:fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:black;
+		height: auto;
+		width: 100vw;
+		font-family: "Open Sans";
+		padding-top: 0px;
+		color: #fff;
+	}
+	.footer-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-content h3{
+		text-shadow: 0 0 4px #FF0000;
+		font-size: 1.5rem;
+
+		font-weight: 400;
+		line-height: 1rem;
+	}
+	.footer-content p{
+		/* text-shadow: 0 0 4px #FF0000; */
+		max-width: 500px;
+		margin: 1px auto;
+		font-family: 'Orbitron', sans-serif;
+		font-size: 1.5rem;
+		letter-spacing: 0.10vw;
+	}
+	.socials{
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem 0 1rem 0;
+	}
+	.socials li{
+		margin: 0 10px;
+	}
+	.socials a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.socials a i{
+		font-size: 2rem;
+		transition: color .4s ease;
+		margin-left: 1vw;
+		margin-right: 1vw;
+
+	}
+	.socials a:hover i{
+		color: white;
+	}
+    </style>
+
+<style> 
+
+input[type=submit] {
+      background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+      background: -webkit-linear-gradient(bottom,#000000,#262626);
+      background: -moz-linear-gradient(bottom,#000000,#262626);
+      background: -o-linear-gradient(bottom,#000000,#262626);
+      background: linear-gradient(0deg,#000000,#262626);
+      backdrop-filter: blur(10px);
+      padding: 5px 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+    }
+    </style>
+
+<div class="card text-center" style="background: rgba(1, 2, 3,0.4); padding: 30px 30px ;">
+    <div class="card-header" >
+        <h1 style="color: white; font-family: 'Pirata One', cursive;" class="text-center">{{team.name}}</h1>
+
+        {% if wait %}
+			<p class="card-text" style="color: white; letter-spacing: 2px; font-family: 'Orbitron', sans-serif;padding-left: 10px;padding-right: 10px;visibility: visible;" id="timer">
+			</p>
+		{% elif finish %}
+			<p class="card-text" style="color: white; letter-spacing: 2px; font-family: 'MedievalSharp', cursive; padding-left: 10px;padding-right: 10px;visibility: visible;">
+				REChase Completed <a style="text-decoration: none; color:white" href="{% url 'teams:scoreboard' %}">!! Visit Leaderboard  !!</a>
+			</p>
+		{% elif started %}
+			<p class="card-text" style="color: white; letter-spacing: 2px; font-family: 'MedievalSharp', cursive; padding-left: 10px;padding-right: 10px;visibility: visible;">
+				<a style="padding:6px; color: white; background:rgb(150, 3, 3); text-decoration: none; font-weight: 800; border-radius: 10px;" href="{% url 'teams:get-level' %}">Play</a>
+			</p>
+		{% endif %}
+
+    {% if applicants %}
+            <h2 style="color: white; font-family: 'Pirata One', cursive;" class="text-center">Team Join Request</h2>
+                {% for applicant in applicants %}
+                <h3 style="color: white;" class="text-center">
+                        <form method="post" action="{% url 'teams:accept-teammate' %}">
+                            {% csrf_token %}
+                                {{ applicant.name }} ( {{ applicant.email }} )
+                                
+                            <input type="hidden" name="ID" value="{{ applicant.id }}"/>
+                            <input type="submit" name="verdict" value="Accept" >
+                            <input type="submit" name="verdict" value="Reject" >
+                        </form>
+                    </h3>
+                {% endfor %}
+        {% endif %}
+
+
+        <!-- <h2 style="color: white;" class="text-center"><a style="padding:6px; color: white; background:rgb(150, 3, 3); text-decoration: none; font-weight: 800; border-radius: 10px;" href="{% url 'teams:get-level' %}">Play</a></h2> -->
+        <br>
+        <div  class="row" >
+            <div class="col-lg-6 mar" style="margin-bottom: 10px;">
+                <h2 style="color: white; font-family: 'MedievalSharp', cursive;" class="text-center">Team Code: {{team.code}}</h3>
+            
+                <h2 style="color: white; font-family: 'MedievalSharp', cursive;" class="text-center">Score: {{team.score}}</h3>
+                
+                <h2 style="color: white; font-family: 'MedievalSharp', cursive;" class="text-center">Current level:
+                {% if  team.current_level > max_level  %}
+                    {{ max_level }}
+                {% else %}
+                    {{ team.current_level }}
+                {% endif %}
+                </h2>
+            </div>
+            <div class="col-lg-6 mar" style="margin-bottom: 10px;">
+                <h2 style="color: white; font-family: 'MedievalSharp', cursive;" class="text-center">Team Members</h2>
+                {% for player in players %}
+                    <h2 style="color: white;font-family: 'MedievalSharp', cursive;" class="text-center">{{forloop.counter}}. {{player}}</h2>
+                    {% endfor %}
+            </div>
+            </div>
+        <br>
+
+       {# <a style="color: white;" class="text-center" href="{% url 'teams:leaveTeam' %}">Leave team.</a>#}
+        
+  </div>
+  </div>
+  <div style="height: 100px;"></div>
+  <footer >
+    <div class="footer-content">
+      <p style="text-shadow: none;">Developed by : RECursion - Programming Community of NIT Durgapur</p>
+    </div>
+    <div class="socials">
+      <li>
+        
+        <a href="https://www.facebook.com/recursion.nit/" target="blank">  <i style="height:30px;width:auto;border: none;" class="fab fa-facebook-square"></i></a>
+        <a href="https://www.recursionnitd.in/" target="blank"><img style="height:30px;width:auto;border: none;" src="{% static 'teams/images/REC_logo.png' %}"></a>  
+        <a href="https://in.linkedin.com/company/recursion-nit-durgapur-programming-community" target="blank">  <i style="height:35px;width:auto;border: none;" class="fab fa-linkedin"></i></a>
+  
+      </li>
+    </div>
+  
+  </footer>
+
+  <script>
+	var countDownDate = new Date({{ start_time|date:"U" }} * 1000);  
+	var now = new Date({{ cur_time|date:"U" }} * 1000);
+	var increment = 1000;
+	
+	var distance = countDownDate - now;
+	var days = 0;
+	var hours = 0;
+	var minutes = 0;
+	var seconds = 0;
+
+	var x = setInterval(function() {
+	
+	  days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  seconds = Math.floor((distance % (1000 * 60)) / 1000);
+	
+	  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+	  + minutes + "m " + seconds + "s ";
+	
+	  if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("timer").innerHTML = '<a style="text-decoration: none; color:white" href="{% url "teams:get-level" %}"> REChase is LIVE now !!</a>';
+	  }
+
+	  distance-=1000;
+
+	//   console.log(distance,seconds)
+
+	}, 1000);
+	</script>
+{% endblock %}

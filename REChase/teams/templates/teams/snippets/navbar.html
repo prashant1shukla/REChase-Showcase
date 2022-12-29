@@ -1,0 +1,259 @@
+{% load static %}
+{% load teams_extra_filters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-sclae=1.0">
+	<title>REChase</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			outline: none;
+		}
+		body{
+            background-color: black;
+            background-image:url("{% static 'teams/images/back2.png' %}") ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Open sans;
+		}
+
+
+
+  .navbar{
+  position: fixed top;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 30px;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  background:#720813;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+}
+.navbar .content1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a{
+	text-shadow: 0 0 4px #FF0000;
+  color: #fff;
+  font-family: 'Share Tech', sans-serif!important;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar .menu-list{
+  display: inline-flex;
+}
+.menu-list li{
+  list-style: none;
+}
+.menu-list li a{
+  color: #fff;
+  padding:5px;
+  border-radius: 10%;
+  font-family: 'Share Tech', sans-serif!important;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover{
+  background: #ff0404;
+  color: #050801;
+  box-shadow: 0 0 5px #ff0404,
+  0 0 25px #ff0404,
+  0 0 50px #ff0404,
+  0 0 200px #ff0404;
+}
+.icon{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn{
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+@media (max-width: 1230px) {
+  .content{
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .content{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .content{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 868px) {
+
+  .icon{
+    display: block;
+  }
+  .icon.hide{
+    display: none;
+  }
+  .icon:hover{
+
+  color: #050801;
+  }
+  .navbar .menu-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #000000;
+    background-image: linear-gradient(to left, #000000 0%, #434343 74%);
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list{
+    left: 0%;
+  }
+  .navbar .menu-list li{
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a{
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .navbar.show .menu-list li a{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar .logo a{
+    font-size: 27px;
+  }
+}
+
+/*cursor animation*/
+.cursor{
+	position: fixed;
+	width:50px;
+	height: 50px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	left:0;
+	right:0;
+	pointer-events: none;
+	transform:translate(-50%,-50%);
+	transition: .1s
+}
+.cursor2{
+	position: fixed;
+	width: 8px;
+	height: 8px;
+	background-color:#fff;
+	border-radius: 50%;
+	left:0;
+	top:0;
+	pointer-events: none;
+	transform: translate(-50%,-50%);
+	transition: .3s;
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="content1">
+      <div class="logo">
+        <a href="{% url 'teams:home' %}"><img style="height:50px;width:65px;border: none;margin-right: 5px;" src="{% static 'teams/images/final_logo.png' %}"></a>
+        <a href="http://arhn.co.in" target="blank"><img style="height:50px;width:50px;border: none;margin-right: 5px;" src="{% static 'teams/images/logo.png' %}"></a>  
+      </div>
+      
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        {% if user.is_authenticated %}
+            <li><a style="text-decoration:none" href="#">{% get_the_username user %}</a></li>
+        {% endif %}
+        {% if "/rules/" == request.path %}
+          <li><a href="{% url 'teams:home' %}">Home</a></li>
+          <li><a href="{% url 'teams:scoreboard' %}">Leaderboard</a></li>
+        {% elif "/scoreboard/" == request.path %}
+        <li><a href="{% url 'teams:home' %}">Home</a></li>
+        <li><a href="{% url 'teams:rules' %}">Rules</a></li>
+        {% else %}
+        <li><a href="{% url 'teams:rules' %}">Rules</a></li>
+        <li><a href="{% url 'teams:scoreboard' %}">Leaderboard</a></li>
+        {% endif %}
+          {% if user.is_authenticated %}
+                <li><a href="{% url 'logout' %}?next={% url 'teams:home' %}">Logout</a></li>
+        {% else %}
+          <li><a href="{% url 'social:begin' 'google-oauth2' %}?next={{ request.path }}" >Login</a></li>
+        {% endif %}
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  
+    <div class="cursor"></div>
+		<div class="cursor2"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--letteringjs-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+	<!--animiejs-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+
+         <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+  <!--cursor script-->
+  <script>
+  	var cursor=document.querySelector(".cursor");
+  	var cursor2=document.querySelector(".cursor2");
+  	document.addEventListener("mousemove",function(e){
+  		cursor.style.cssText = cursor2.style.cssText="left: " +e.clientX + "px; top: " + e.clientY + "px;";
+  	});
+  </script>
+</body>
+

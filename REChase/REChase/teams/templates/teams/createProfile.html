@@ -1,0 +1,185 @@
+{% extends 'teams/base_bootstrap.html' %}
+{% load crispy_forms_field %}
+{% block title %}
+    Complete profile
+{% endblock %}
+
+{% block content %}
+
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<style>
+.container{
+padding-top: 5vh;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container .box{
+/* backdrop-filter: blur(5px); */
+position: relative;
+width: 500px;
+height: 400px;
+color: #010203;
+display: flex;
+justify-content: center;
+align-items: center;
+/*webkit-box-reflect:below 15px linear-gradient(transparent,transparent,rgba(0,0,0,.2));*/
+}
+/* .container .box:hover{
+
+} */
+.container .box:before{
+background: rgba(1, 2, 3,0.6);
+content: '';
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+/* border:4px solid #fff;
+background:rgba(225,225,225,.1);
+filter: url(#wavy); */
+border: 4px groove transparent;
+border-radius:5%;
+}
+
+.container .box .content{
+position:absolute;
+text-align: center;
+transition: 0.5s;
+}
+.container .box:after{
+content: '';
+position: absolute;
+top:0;
+left:0;
+width:0%;
+height: 100%;
+/* border: 4px solid #fff;
+background:rgba(225,225,225,.1);
+border-right: none;
+filter: url(#wavy); */
+}
+
+.container .box h1{
+font-family: 'MedievalSharp', cursive;
+font-size: 4rem;
+font-weight: bold;
+color: #fff;
+
+}
+.container .box p{
+color: #fff
+}
+
+.container .box .form{
+margin-top: 2rem;
+}
+
+input[type=submit] 
+{
+background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+background: -webkit-linear-gradient(bottom,#000000,#262626);
+background: -moz-linear-gradient(bottom,#000000,#262626);
+background: -o-linear-gradient(bottom,#000000,#262626);
+background: linear-gradient(0deg,#000000,#262626);"
+color: blue;
+backdrop-filter: blur(10px);
+
+padding: 25px 105px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+
+}
+
+input[type=text], select, textarea {
+width: 280px;
+padding: 12px;
+border: 2px solid #fff;
+border-radius: 10px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+
+color: #fff;
+background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+background: -webkit-linear-gradient(bottom,#000000,#262626);
+background: -moz-linear-gradient(bottom,#000000,#262626);
+background: -o-linear-gradient(bottom,#000000,#262626);
+background: linear-gradient(0deg,#000000,#262626);
+backdrop-filter: blur(10px);
+}
+
+@media only screen and (max-width: 600px)
+{
+.container{
+padding-top: 100px;
+}
+.container .box{
+width:90%!important;
+
+}
+.container .box .content{
+font-size: 15px;
+
+}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+
+.main-wrapper {
+position: absolute;
+margin-top: 100px;
+width: 100%;
+height: 100%;
+left :0!important;
+top:0!important;
+
+}
+
+
+@media (max-width: 500px)
+{
+    .main-wrapper{
+    margin-top: 70px;
+    }
+}
+
+
+
+
+
+</style>
+
+<div class="container">
+
+<div class="box">
+  <div class="content">
+
+    <form  method="POST">{% csrf_token %}
+        <p style="font-size: 3rem; color: white;" class="text-center">Complete your profile.</p>
+        
+        <table style="color: white; margin: auto;padding: 10px;">{{ form.as_table }}</table>
+
+        </p>
+        <input class="btn btn-primary" style="color: #fff;padding:5px;height:40px;width:100px;border: 2px solid #fff;"  type="submit" value="Save">
+        </p>
+    </form>
+
+</div>
+</div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,148 @@
+{% include 'teams/base_bootstrap.html' %}
+
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+    .imgg{
+        width: 35%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media (max-width: 500px)
+    {
+        .imgg{
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media (min-width:501px)  and (max-width: 1000px)
+    {
+        .imgg{
+            width: 65%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    input[type=submit] {
+      background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+      background: -webkit-linear-gradient(bottom,#000000,#262626);
+      background: -moz-linear-gradient(bottom,#000000,#262626);
+      background: -o-linear-gradient(bottom,#000000,#262626);
+      background: linear-gradient(0deg,#000000,#262626);
+      backdrop-filter: blur(10px);
+      padding: 25px 105px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+    }
+
+
+    input[type=text], select, textarea {
+      height:40px;
+      width:250px; 
+      
+      padding: 9px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      color: #fff;
+      
+      background: -webkit-gradient(linear,left bottom, left top,from(#000000),to(#262626));
+      background: -webkit-linear-gradient(bottom,#000000,#262626);
+      background: -moz-linear-gradient(bottom,#000000,#262626);
+      background: -o-linear-gradient(bottom,#000000,#262626);
+      background: linear-gradient(0deg,#000000,#262626);
+      backdrop-filter: blur(10px);
+    }
+
+
+</style>
+
+<div class="card text-center" style="background: rgba(1, 2, 3,0.6); padding: 30px 30px ;">
+  {% if question.modal %}
+      <div class="card-header" >
+
+     <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong" style="margin-top: 10px;">
+        Hints
+      </button>
+      <br>
+      <br>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Hints</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              {{ question.modal | safe }}
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+{% endif %}  
+<div class="card-body" style="color: #fff;">
+    <p class="card-text" style="color: #fff;font-family: 'MedievalSharp', cursive;">{{ question.question|safe }}</p>
+    <p class="card-text" style="color: #fff;font-family: 'MedievalSharp', cursive;">{{query}}</p>
+    <br>
+
+      {% if question.image1 %}
+      <img class="imgg" src="{{question.image1.url}}" alt="Image is not available at this moment">
+      {% endif %}
+      
+      <!-- {% if question.image2 %}
+      <img class="imgg" src="{{question.image2.url}}" alt="Image is not available at this moment">
+      {% endif %}
+      
+      {% if question.image3 %}
+      <img  class="imgg" src="{{question.image3.url}}" alt="Image is not available at this moment">
+      {% endif %} -->
+
+  </div>
+
+
+  <form action="" class="form" method="post" id="upload_form" enctype="multipart/form-data" >
+    {% csrf_token %}
+    <input type="text" id="subject" name="answer"  placeholder="Your Answer Here.." style="height:40px;width:250px; color: #fff;">
+       <br>
+    <input type="submit" value="Submit" style="color: #fff;padding:5px;height:40px;width:100px;border: 2px solid #fff;">
+  </form>
+  {% if wrong %}
+    <h4 style="color: red;"><strong>Wrong Answer</strong></h4>
+  {% endif %}
+</div>
+
+
+{% endblock %}

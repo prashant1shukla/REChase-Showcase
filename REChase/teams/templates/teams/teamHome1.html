@@ -1,0 +1,73 @@
+{% extends "teams/base_bootstrap.html" %}
+
+{% block content %}
+
+<style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: rgb(252, 0, 42);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: rgb(0, 255, 85);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    </style>
+
+    
+<p style="color: white;">
+    <h2 style="color: white;" class="text-center">Team Details</h2>
+    <br>
+    <p>
+        <h4 style="color: white;" class="text-center"><a href="{% url 'teams:get-level' %}">Play</a></h4>
+        
+        <h4  style="color: white;"class="text-center">Team Name: {{team.name}}</h4>
+        
+        <h4 style="color: white;" class="text-center">Team Code: {{team.code}}</h4>
+        
+        <h4 style="color: white;" class="text-center">Score: {{team.score}}</h4>
+        
+        <h4 style="color: white;" class="text-center">Current level:
+        {% if  team.current_level > max_level  %}
+            {{ max_level }}
+        {% else %}
+            {{ team.current_level }}
+        {% endif %}
+        </h4>
+    </p>
+    <br>
+    <h2 style="color: white;" class="text-center">Team Members</h2>
+    <br>
+    {% for player in players %}
+        <ul style="color: white;" class="text-center">{{player}} :: {{player.email}}</ul><br>
+    {% endfor %}
+   {# <a style="color: white;" class="text-center" href="{% url 'teams:leaveTeam' %}">Leave team.</a>#}
+    {% if applicants %}
+        <h2 style="color: white;" class="text-center">Applicants</h2>
+        <ul>
+            {% for applicant in applicants %}
+                <li style="color: white;" class="text-center">
+                    <form method="post" action="{% url 'teams:accept-teammate' %}">{% csrf_token %}
+                        <h4 class="text-center">{{ applicant.name }}({{ applicant.email }})</h4>
+                        <input type="hidden" name="ID" value="{{ applicant.id }}"/>
+                        <input type="submit" name="verdict" value="acc">
+                        <input type="submit" name="verdict" value="rej">
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <p>
+
+{% endblock %}

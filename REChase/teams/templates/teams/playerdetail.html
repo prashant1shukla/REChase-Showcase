@@ -1,0 +1,127 @@
+{% include 'teams/base_bootstrap.html' %}
+
+{% load static %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+
+<style>
+
+   
+	/*footer styling */
+  footer{
+		position:fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:black;
+		height: auto;
+		width: 100vw;
+		font-family: "Open Sans";
+		padding-top: 0px;
+		color: #fff;
+	}
+	.footer-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-content h3{
+		text-shadow: 0 0 4px #FF0000;
+		font-size: 1.5rem;
+
+		font-weight: 400;
+		line-height: 1rem;
+	}
+	.footer-content p{
+		/* text-shadow: 0 0 4px #FF0000; */
+		max-width: 500px;
+		margin: 1px auto;
+		font-family: 'Orbitron', sans-serif;
+		font-size: 1.5rem;
+		letter-spacing: 0.10vw;
+	}
+	.socials{
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem 0 1rem 0;
+	}
+	.socials li{
+		margin: 0 10px;
+	}
+	.socials a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.socials a i{
+		font-size: 2rem;
+		transition: color .4s ease;
+		margin-left: 1vw;
+		margin-right: 1vw;
+
+	}
+	.socials a:hover i{
+		color: white;
+	}
+
+    @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+</style>
+<div class="card text-center" style="background: rgba(1, 2, 3,0.6); padding: 30px 30px ;">
+  <div class="card-header" >
+  <div class="card-body" style="color: #fff;">
+    <h1 style="color: white; font-family: 'Pirata One', cursive;" class="text-center">Players Detail</h1>
+    <br>
+    <div class="table-responsive">
+        <table  class="table table-bordered "  style="font-weight:bold;box-shadow: 0px 0px 8px #000">
+            <tr style="background: linear-gradient(315deg, #d00101 0%, #000000 150%);color:#fff;font-size:18px">
+
+                <th style="text-align: center;">Name</th>
+                <th style="text-align: center;">Team Code</th>
+                <th style="text-align: center;">Team Name</th>
+                
+            </tr>
+            {% for item in players %}
+            <tr>
+                <td>{{ item.name }}</td><td>{{ item.team_code }}</td><td>{{ item.team }}</td>       </td>
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+
+  </div>
+</div>
+</div>
+
+<div style="height: 100px;"></div>
+
+<footer >
+	<div class="footer-content">
+		<p style="text-shadow: none;">Developed by : RECursion - Programming Community of NIT Durgapur</p>
+	</div>
+	<div class="socials">
+	  <li>
+		  
+		  <a href="https://www.facebook.com/recursion.nit/" target="blank">  <i style="height:30px;width:auto;border: none;" class="fab fa-facebook-square"></i></a>
+		  <a href="https://www.recursionnitd.in/" target="blank"><img style="height:30px;width:auto;border: none;" src="{% static 'teams/images/REC_logo.png' %}"></a>  
+		  <a href="https://in.linkedin.com/company/recursion-nit-durgapur-programming-community" target="blank">  <i style="height:35px;width:auto;border: none;" class="fab fa-linkedin"></i></a>
+
+	  </li>
+	</div>
+
+</footer>
+
+
+{% endblock %}

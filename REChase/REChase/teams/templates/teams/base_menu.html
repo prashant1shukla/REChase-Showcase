@@ -1,0 +1,486 @@
+{% extends "teams/base_bootstrap.html" %}
+{% load static %}
+{% block title %}
+    REChase
+{% endblock %}
+{% block content %}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT" rel="stylesheet" type="text/css"/>
+<style>
+		.home .container{
+			max-width: auto;
+		}
+		/*rechase-image*/
+		.home .person{
+			float:right;
+			position: relative;
+			border-radius: 70px 0 70px 0;
+			overflow: hidden;
+		}
+		.home .person img{
+			filter: brightness(0.8);
+			width:550px;
+			height: 400px;
+		}
+		.home .person-overlay{
+			content: '';
+			position: absolute;
+			top:0;
+			left:-100%;
+			width:100%;
+			height:100%;
+			background-color: #000000;
+			background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+			z-index: 99;
+		}
+		/*rechase-text*/
+		.home-text{
+			color: #fff;
+			width: auto;
+		}
+		.home-text h6{
+      		text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			font-size: 3.0202020202020203vh;
+		}
+
+		.home-text h1
+		{
+      		margin-top:80px;
+			font-family: 'Old English Text MT';
+			text-align: center;
+			font-size:5.510416666666667vw;
+			text-shadow: 0 0 4px #919191;
+			text-shadow: 1px 1px 1px #919191,
+			1px 2px 1px #919191,
+			1px 3px 1px #919191,
+			1px 4px 1px #919191,
+			1px 18px 6px rgba(16,16,16,0.4),
+			1px 22px 10px rgba(16,16,16,0.2),
+			1px 25px 35px rgba(16,16,16,0.2),
+			1px 30px 60px rgba(16,16,16,0.4);
+		}
+		@media (min-width:451px) and (max-width: 700px)
+		{
+			.home-text h1
+			{
+				margin-top:60px;
+				text-align: center;
+				font-size: 12vw;
+				text-shadow: 0 0 4px #919191;
+				text-shadow: 1px 1px 1px #919191,
+				1px 2px 1px #919191,
+				1px 3px 1px #919191,
+				1px 4px 1px #919191,
+				1px 18px 6px rgba(16,16,16,0.4),
+				1px 22px 10px rgba(16,16,16,0.2),
+				1px 25px 35px rgba(16,16,16,0.2),
+				1px 30px 60px rgba(16,16,16,0.4);
+			}
+		}
+
+		@media (max-width: 450px)
+		{
+			.home-text h6{
+				font-size:12px;
+				text-align: center;
+				letter-spacing:2px;
+			}
+
+			.home-text h1{
+				text-align: center;
+				font-size: 11vw;
+				margin-top: 5vh;
+				text-shadow: 0 0 4px #919191;
+				text-shadow: 1px 1px 1px #919191,
+				1px 2px 1px #919191,
+				1px 3px 1px #919191,
+				1px 4px 1px #919191,
+				1px 18px 6px rgba(16,16,16,0.4),
+				1px 22px 10px rgba(16,16,16,0.2),
+				1px 25px 35px rgba(16,16,16,0.2),
+				1px 30px 60px rgba(16,16,16,0.4);
+			}
+
+		}
+		.home-text .name span{
+			margin-right: 7.463541666vw;
+			display: inline-block;
+		}
+		.home-text .name span:last-child{
+			margin-right: 0;
+		}
+		/*default state hide*/
+		.home .person img, .student span, .name span{
+			opacity:0;
+		}
+
+		@media (max-width: 450px)
+		{
+			.home-text h6{
+				font-size:12px;
+				text-align: center;
+				letter-spacing:2px;
+			}
+
+
+		}
+
+		/*footer styling */
+		footer
+		{
+			position:fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: auto;
+			width: 100vw;
+			font-family: "Open Sans";
+			padding-top: 15px;
+			color: #fff;
+		}
+		.footer-content{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+		}
+		.footer-content h3{
+			text-shadow: 0 0 4px #FF0000;
+			font-weight: 400;
+			font-size: 1rem;
+		}
+
+		.footer-content h3{
+			text-shadow: 0 0 4px #FF0000;
+			font-weight: 400;
+			line-height: 1rem;
+		}
+
+		.footer-content p{
+			text-shadow: 0 0 4px #FF0000;
+			max-width: 500px;
+			margin: 5px auto;
+			line-height: 28px;
+			font-size: 14px;
+		}
+
+
+		/*cursor animation*/
+		.cursor{
+			position: fixed;
+			width:60px;
+			height: 60px;
+			border: 2px solid #fff;
+			border-radius: 50%;
+			left:0;
+			right:0;
+			pointer-events: none;
+			transform:translate(-50%,-50%);
+			transition: .1s
+		}
+		.cursor2{
+			position: fixed;
+			width: 8px;
+			height: 8px;
+			background-color:#FF0000;
+			box-shadow: 0 0 5px #03e9f4,
+			0 0 25px #03e9f4,
+			0 0 50px #03e9f4,
+			0 0 200px #03e9f4;
+			border-radius: 50%;
+			left:0;
+			top:0;
+			pointer-events: none;
+			transform: translate(-50%,-50%);
+			transition: .15s;
+			box-shadow: 0 0 4px #FF0000;
+		}
+		@media (max-width: 500px)
+		{
+			.cursor{
+				cursor: none;
+			}
+			.cursor2{
+				cursor: none;
+			}
+
+		}
+
+		/*rain animation*/
+		.rain{
+
+			background-image: url("{% static 'teams/images/rain.png' %}");
+			animation: rain 10s linear infinite;
+		}
+		@keyframes rain{
+			0%{
+				background-position: 0% 0%;
+			}
+			100%{
+				background-position: 20% 100%;
+			}
+		}
+		.rain::before
+		{
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background-image: url("{% static 'teams/images/lightining.png' %}");
+			top: -100px;
+			transform: rotate(180deg);
+			animation: lightining 4s linear infinite;
+			opacity: 1;
+		}
+
+		@keyframes lightining{
+			0%{
+				opacity: 0;
+			}
+			20%{
+				opacity: 0;
+			}
+			21%{
+				opacity: 1;
+			}
+			25%{
+				opacity: 0;
+			}
+			30%{
+				opacity: 0;
+			}
+			31%{
+				opacity: 1;
+			}
+			35%{
+				opacity: 0;
+			}
+			100%{
+				opacity: 0;
+			}
+		}
+
+
+	/*footer styling */
+		footer{
+		position:absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:linear-gradient(147deg, rgba(0, 0, 0, .4),rgba(67, 67, 67, .5) );
+		height: auto;
+		width: 100vw;
+		font-family: "Open Sans";
+		padding-top: 0px;
+		color: #fff;
+	}
+	.footer-content{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-content h3{
+		text-shadow: 0 0 4px #FF0000;
+		font-size: 1.5rem;
+
+		font-weight: 400;
+		text-transform: capitalize;
+		line-height: 1rem;
+	}
+	.footer-content p{
+		text-shadow: 0 0 4px #FF0000;
+		max-width: 500px;
+		margin: 1px auto;
+
+		font-size: 1.5rem;
+	}
+	.socials{
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 1rem 0 1rem 0;
+	}
+	.socials li{
+		margin: 0 10px;
+	}
+	.socials a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.socials a i{
+		font-size: 2rem;
+		transition: color .4s ease;
+		margin-left: 1vw;
+		margin-right: 1vw;
+
+	}
+	.socials a:hover i{
+		color: white;
+	}
+	@import url(//db.onlinewebfonts.com/c/f3258385782c4c96aa24fe8b5d5f9782?family=Old+English+Text+MT);
+</style>
+
+
+  <div class="wrapper">
+		<div class="home">
+			<div class="container">
+				<div class="person">
+				<span class="person-overlay"></span>
+				<!--<img src="images/flash-ConvertImage.jpg">-->
+				</div>
+				<div class="home-text">
+				<h6 class="student" style="font-family: 'Orbitron', sans-serif; letter-spacing: 4px;">Team AAVISHKAR Presents</h6>
+				<h1 class="name">REChase</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="rain"></div>
+		<div class="lightining"></div>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="card text-center">
+			<div class="card-body">
+			{% if wait %}
+			  <p class="card-text" style="color: white; letter-spacing: 2px; font-family: 'Orbitron', sans-serif;padding-left: 10px;padding-right: 10px;visibility: visible;" id="timer">
+			  </p>
+			{% elif finish %}
+			  <p class="card-text" style="color: white; letter-spacing: 2px; font-family: 'Orbitron', sans-serif;padding-left: 10px;padding-right: 10px;visibility: visible;">
+				REChase Completed <a style="text-decoration: none; color:white" href="{% url 'teams:scoreboard' %}">!! Visit Leaderboard  !!</a>
+			</p>
+			{% elif started %}
+			  <p class="card-text" style="color: white; letter-spacing: 2px; font-family: 'Orbitron', sans-serif;padding-left: 10px;padding-right: 10px;visibility: visible;">
+				REChase is LIVE now !!
+			</p>
+			  {% endif %}
+
+			</div>
+		  </div>
+
+  </div>
+
+  <footer >
+	<div class="footer-content">
+		<p style="text-shadow: none; font-family: 'Orbitron', sans-serif; letter-spacing: 2px;">Developed by: RECursion - Programming Community of NIT Durgapur</p>
+	</div>
+	<div class="socials">
+	  <li>
+
+		  <a href="https://www.facebook.com/recursion.nit/" target="blank">  <i style="height:30px;width:auto;border: none;" class="fab fa-facebook-square"></i></a>
+		  <a href="https://www.recursionnitd.in/" target="blank"><img style="height:30px;width:auto;border: none;" src="{% static 'teams/images/REC_logo.png' %}"></a>
+		  <a href="https://in.linkedin.com/company/recursion-nit-durgapur-programming-community" target="blank">  <i style="height:35px;width:auto;border: none;" class="fab fa-linkedin"></i></a>
+
+	  </li>
+	</div>
+
+</footer>
+
+<!--jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--letteringjs-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+	<!--animiejs-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+	<script>
+		 $(document).ready(function() {
+	    $(".name, .student").lettering();
+	    //image overlay effect
+	    anime({
+	    	targets:'.home .person-overlay',
+	    	translateX:1100,
+	    	delay:1000,
+	    	duration:1500,
+	    	easing:'easeInSine'
+	    })
+	    anime({
+	    	targets:'.home .person img',
+	    	opacity:1,
+	    	delay:1500,
+	    	duration:1500,
+	    	easing:'easeInSine'
+	    })
+	    //student
+	    anime({
+	    	targets:'.student span',
+	    	opacity:1,
+	    	duration:1500,
+	    	easing:'easeInSine',
+	    	delay:anime.stagger(100,{start:1000})
+	    })
+	    //REChase fade-in
+	    anime({
+	    	targets:'.name span',
+	    	opacity:1,
+	    	duration:1500,
+	    	easing:'easeInSine',
+	    	delay:anime.stagger(100,{start:3000})
+	    })
+	    //REChase up-down
+	    anime({
+	    	targets: '.name .char2, .name .char4, .name .char6',
+	    	keyframes:[
+	    		{translateY:30,duration:1500}
+	    	],
+	    	easing:'easeInOutExpo',
+	    	delay:4000,
+
+	    })
+	    anime({
+	    	targets:'.name .char3, .name .char5',
+	    	keyframes:[
+	    	{translateY:-20,duration:1500}
+	    	],
+	    	easing:'easeInOutExpo',
+	    	delay:4000,
+
+	    })
+	  });
+	</script>
+
+<script>
+	var countDownDate = new Date({{ start_time|date:"U" }} * 1000);
+	var now = new Date({{ cur_time|date:"U" }} * 1000);
+	var increment = 1000;
+
+	var distance = countDownDate - now;
+
+	var days = 0;
+	var hours = 0;
+	var minutes = 0;
+	var seconds = 0;
+
+	var x = setInterval(function() {
+
+	  days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+	  + minutes + "m " + seconds + "s ";
+
+	  if (distance < 0) {
+		clearInterval(x);
+		document.getElementById("timer").innerHTML = "REChase is LIVE now !!";
+	  }
+
+	  distance-=1000;
+
+	//   console.log(distance,seconds)
+
+	}, 1000);
+	</script>
+
+{% endblock %}
+
+

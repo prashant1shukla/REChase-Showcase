@@ -1,0 +1,35 @@
+{% extends 'teams/base_bootstrap.html' %}
+
+{% block title %}
+Are you sure you wanna LEAVE team?
+{% endblock title %}
+
+{% block content %}
+
+    <style type="text/css">
+  .create-form {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+        margin: auto;
+        margin-top: 80px;
+
+    }
+
+</style>
+
+
+    <div class="col-sm-6 col-sm-offset-3 text-center create-form">
+        <form class="create-form" method="POST" action="{% url 'teams:leaveTeam' %}">{% csrf_token %}
+            <h1>Confirm leaving team?</h1>
+            <p>You sure you wanna LEAVE <a href="{% url 'teams:home' %}">{{ team.name }}</a>?
+            </p>
+
+            <input type="submit" value="Confirm Leave" class="btn btn-warning">
+            <a href="{% url 'teams:home' %}" class="btn btn-default">Cancel</a>
+        </form>
+
+    <hr/>
+    </div>
+
+{% endblock content %}
